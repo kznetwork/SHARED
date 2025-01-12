@@ -14,38 +14,54 @@ package com.samsung;
 //    }
 //}
 
+//HelloTest
+//public class Person {
+//    private String firstName;
+//    private String lastName;
+//
+//    // Default Constructor
+//    public Person() {
+//    }
+//
+//    // Parameterized Constructor
+//    public Person(String lastName, String firstName) {
+//        this.firstName = firstName;
+//        this.lastName = lastName;
+//    }
+//
+//    // Getter for firstName
+//    public String getFirstName() {
+//        return firstName;
+//    }
+//
+//    // Setter for firstName
+//    public void setFirstName(String firstName) {
+//        this.firstName = firstName;
+//    }
+//
+//    // Getter for lastName
+//    public String getLastName() {
+//        return lastName;
+//    }
+//
+//    // Setter for lastName
+//    public void setLastName(String lastName) {
+//        this.lastName = lastName;
+//    }
+//}
 
+//DisplayNameTest
 public class Person {
     private String firstName;
     private String lastName;
 
-    // Default Constructor
-    public Person() {
-    }
-
-    // Parameterized Constructor
-    public Person(String lastName, String firstName) {
+    public Person(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
     }
 
-    // Getter for firstName
-    public String getFirstName() {
-        return firstName;
-    }
-
-    // Setter for firstName
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    // Getter for lastName
-    public String getLastName() {
-        return lastName;
-    }
-
-    // Setter for lastName
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public String getFullName() {
+        return firstName + " " + lastName;
     }
 }
+
